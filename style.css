@@ -1,0 +1,146 @@
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E9E9E8;
+}
+
+
+nav {
+    background-color: #565756;
+    position: fixed;
+    width: 360px;
+    padding: 20px 0 5px 0;
+    z-index: 2;
+}
+
+
+nav hr {
+    border-style: none;
+    border-top-style: solid;
+    width: 80%;
+    border-width: 3px;
+    border-color: #7C88DC;
+    margin-top: 4px;
+}
+
+
+a {
+    padding: 0 15px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #7C88DC;
+}
+
+
+.first-section {
+    background-color: #565756;
+    padding-top: 130px;
+    padding-bottom: 275px;
+}
+
+
+.first-section h1 {
+    font-size: 52px;
+    color: #F7DCC2;
+    margin-bottom: 50px;
+    font-family: 'Handlee', cursive;
+}
+
+
+.first-section h3 {
+    font-size: 19px;
+    color: #FDF0F6;
+    margin-bottom: 145px;
+}
+
+
+
+.robot {
+    width: 40%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+
+.bus {
+    width: 300px;
+    position: absolute;
+    left: 80px;
+    top: 350px;
+    
+}
+
+
+span {
+    text-decoration: underline;
+}
+
+
+.middle-section img {
+    width: 60%;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+.middle-section{
+    font-weight: normal;
+    font-size: 16px;
+    margin: auto 40px auto 40px;
+}
+
+
+.middle-section h3 {
+    margin: 30px 0 60px 0;
+    color: #413E40;
+}
+
+.middle-section p {
+    color: #604646;
+    margin-bottom: 40px;
+}
+
+.dot {
+    border-style: none;
+    border-top-style: dotted;
+    width: 40%;
+    border-width: 5px;
+    border-color: #604646;
+    margin-bottom: 20px;
+}
+
+.bottom-section {
+    position: relative;
+    height: 250px;
+    font-family: 'Lustria', serif;
+    
+}
+.poste1 {
+    width: 80px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.poste2 {
+    width: 80px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.bottom-section p {
+    margin: auto 60px auto 60px;
+    display: inline-block;
+    line-height: 2;
+    padding: 20px;
+
+    
+}
+.bottom-section h4 {
+    display: inline-block;
+    margin: 0;
+}
